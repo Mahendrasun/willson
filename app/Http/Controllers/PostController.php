@@ -17,6 +17,12 @@ public function Allpost(){
 
 public function SearchPost(Request $request){
 
+    $validated = $request->validate([
+        'search' => 'required',
+    ],[
+        'search.required' => 'Please enter Title for Search',
+    ]);
+
 
     if (request('search')) {
         $posts = post::where('title', 'like', '%' . request('search') . '%')->get();

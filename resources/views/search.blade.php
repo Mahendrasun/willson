@@ -26,6 +26,9 @@
 >
   
   <button type="submit" class="btn btn-primary">Search</button>
+  @error('search')
+<span class="text-danger">{{$message}}</span>
+    @enderror
 </form>
 
 
