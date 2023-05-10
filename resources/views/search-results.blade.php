@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Wilson Wings</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   </head>
   <body>
@@ -13,21 +13,6 @@
         <div class="row" style="margin-top:20px;margin-bottom:20px;">
         <div class="col-md-8">All Posts</div>
 <div class="col-md-4">
-
-<!-- <form action="{{ route('search.post')}}" method="POST" >
-@csrf 
-<input
-    type="search"
-    class="form-control"
-    placeholder="Find user here"
-    name="search"
-    value="{{ request('search') }}"
->
-  
-  <button type="submit" class="btn btn-primary">Search</button>
-</form> -->
-
-
 </div>
 
         </div>
